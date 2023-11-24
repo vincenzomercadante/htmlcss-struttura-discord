@@ -116,6 +116,8 @@ ul{
     background-color: #228b22;
 }
 
+/* footer */
+/* first section */
 .page-footer{
     background-color: #23272a;
 }
@@ -145,3 +147,21 @@ ul{
     width: 25%;
     border: 2px dashed white;
 }
+
+/* second section */
+.footer-wrap{
+    width: var(--container-width);
+    margin-top: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fffd4;
+}
+
+.footer-item{
+    padding: 5px;
+    border: 2px dashed black;
+    background-color: #ffb6c1;
+}
+
+
