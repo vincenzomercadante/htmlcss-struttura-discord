@@ -1,5 +1,5 @@
 :root{
-    --navcolor: #daa520;
+    --container-width: 60%;
 }
 
 /* reset */
@@ -23,13 +23,14 @@ ul{
 
 /* header */
 
+/* header navbar */
 .header-navbar{
     min-height: 75px;
     background-color: #add8e6;
 }
 
 .navbar-wrapper{
-    width: 60%;
+    width: var(--container-width);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +38,7 @@ ul{
 
 .header-item{
     display: flex;
-    background-color: var(--navcolor);
+    background-color: #daa520;
     border: 2px dashed black;
     padding: 10px;
 }
@@ -65,4 +66,17 @@ ul{
 
 .header-login{
     justify-content: flex-end;
+}
+
+/* header introduction */
+.header-introduction{
+    background-color: #00008b;
+    min-height: 500px;
+}
+
+.introduction-container{
+    width: 45%;
+    min-height: 400px;
+    border: 2px dashed black;    
+    background-color: #ee82ee;
 }
