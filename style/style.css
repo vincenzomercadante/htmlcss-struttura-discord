@@ -94,7 +94,6 @@ ul{
 }
 
 .img-container{
-    padding: var(--section-padding);
     width: var(--container-width);
     background-color: #1e90ff;
     border: 2px dashed black;
@@ -115,4 +114,34 @@ ul{
     min-height: 700px;
     border: 2px dashed black;
     background-color: #228b22;
+}
+
+.page-footer{
+    background-color: #23272a;
+}
+
+.footer-section{
+    border-bottom: 2px solid #b4b4b3;
+}
+
+#info{
+    padding-top: 10px
+}
+
+.footer-social{
+    width: 30%;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.footer-info{
+    display: flex;
+    width: 70%;
+    background-color: #20b2aa;
+    border: 2px dashed black;
+}
+
+.footer-links{
+    width: 25%;
+    border: 2px dashed white;
 }
