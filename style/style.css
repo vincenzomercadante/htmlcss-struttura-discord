@@ -95,7 +95,7 @@ ul{
 
 .img-container{
     padding: var(--section-padding);
-    width: 60%;
+    width: var(--container-width);
     background-color: #1e90ff;
     border: 2px dashed black;
 }
@@ -108,4 +108,11 @@ ul{
 
 .section-container:nth-child(2) .section-wrapper{
     flex-direction: row-reverse;
+}
+
+.main-ending{
+    width: 100%;
+    min-height: 700px;
+    border: 2px dashed black;
+    background-color: #228b22;
 }
