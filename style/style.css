@@ -1,5 +1,68 @@
+:root{
+    --navcolor: #daa520;
+}
+
+/* reset */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* generics */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+/* header */
+
+.header-navbar{
+    min-height: 75px;
+    background-color: #add8e6;
+}
+
+.navbar-wrapper{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.header-item{
+    display: flex;
+    background-color: var(--navcolor);
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.header-link{
+    width: 60%;    
+    justify-content: center;
+    flex-grow: 5;
+}
+
+.header-logo,
+.header-login{
+    width: 20%;
+}
+
+.list-item{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.list-item > a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-login{
+    justify-content: flex-end;
 }
