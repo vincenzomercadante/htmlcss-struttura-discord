@@ -1,5 +1,6 @@
 :root{
     --container-width: 60%;
+    --section-padding: 50px 0;
 }
 
 /* reset */
@@ -14,7 +15,6 @@
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 ul{
@@ -71,7 +71,7 @@ ul{
 /* header introduction */
 .header-introduction{
     background-color: #00008b;
-    min-height: 500px;
+    padding: var(--section-padding);
 }
 
 .introduction-container{
@@ -79,4 +79,33 @@ ul{
     min-height: 400px;
     border: 2px dashed black;    
     background-color: #ee82ee;
+}
+
+/* main */
+.main-container section:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+.section-wrapper{
+    width: var(--container-width);
+    padding: var(--section-padding);
+    min-height: 600px;
+    display: flex;
+}
+
+.img-container{
+    padding: var(--section-padding);
+    width: 60%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.text-container{
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+.section-container:nth-child(2) .section-wrapper{
+    flex-direction: row-reverse;
 }
